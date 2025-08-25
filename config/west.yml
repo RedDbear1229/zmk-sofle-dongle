@@ -6,10 +6,10 @@ manifest:
       url-base: https://github.com/tokyo2006
     - name: englmaxi
       url-base: https://github.com/englmaxi
-    - name: mctechnology17
-      url-base: https://github.com/mctechnology17
-   # - name: m165437 #new entry
-   #   url-base: https://github.com/M165437 #new entry
+    #- name: mctechnology17
+    #  url-base: https://github.com/mctechnology17
+    - name: m165437 #new entry
+      url-base: https://github.com/M165437 #new entry
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -22,11 +22,11 @@ manifest:
       remote: englmaxi
       revision: main
       # support nice_oled and nice_epaper
-    - name: zmk-nice-oled
-      remote: mctechnology17
-      revision: main
-   # - name: nice-view-gem #new entry
-   #   remote: m165437 #new entry
-   #   revision: main #new entry
+    # - name: zmk-nice-oled
+    #  remote: mctechnology17
+    #  revision: main
+    - name: nice-view-gem #new entry
+      remote: m165437 #new entry
+      revision: main #new entry
   self:
     path: config

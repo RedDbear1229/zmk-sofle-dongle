@@ -46,7 +46,7 @@
         compatible = "zmk,behavior-tap-dance";
         label = "TD_CTRL";
         #binding-cells = <0>;
-        bindings = <&kp LEFT_CONTROL>, <&sk LEFT_CONTROL>, <&to 3>;
+        bindings = <&kp LEFT_CONTROL>, <&sk LEFT_CONTROL>, <&kt LCTRL>;
 
         tapping-term-ms = <300>;
     };
@@ -202,7 +202,7 @@
 &kp TILDE  &kp F13         &kp F14         &nm_ppp       &kp F16          &kp F17           &mmv MOVE_UP     &kp F18         &kp F19         &kp F20       &kp F21    &kp F22    &trans
 &trans     &trans          &mkp LCLK       &mkp MCLK     &mkp RCLK        &msc SCRL_UP      &mmv MOVE_DOWN   &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP   &kp END    &kp UNDER  &kp PLUS
 &trans     &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &msc SCRL_DOWN    &mmv MOVE_LEFT   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &kp LBRC   &kp RBRC
-&trans     &kp LC(Z)       &kp LC(X)       &kp LC(C)     &kp LC(V)        &trans            &mmv MOVE_RIGHT  &trans          &trans          &trans        &trans     &trans     &trans
+&trans     &kp LC(Z)       &kp LC(X)       &kp LC(C)     &kp LC(V)        &to 3             &mmv MOVE_RIGHT  &trans          &trans          &trans        &trans     &trans     &trans
 &trans     &trans          &trans          &trans        &trans           &td_upper2        &mkp LCLK        &td_lower2      &trans          &trans        &trans     &trans
             >;
 

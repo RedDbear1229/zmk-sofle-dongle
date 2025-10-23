@@ -177,7 +177,18 @@
         };
     };
 
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        com_f {
+            bindings = <&kp LA(M)>;
+            key-positions = <30 29>;
+            timeout-ms = <100>;
+            require-prior-idle-ms = <100>;
+            slow-release;
+            layers = <0>;
+        };
+    };
 
     keymap {
         compatible = "zmk,keymap";

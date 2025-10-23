@@ -174,7 +174,7 @@
         cb_F {
             bindings = <&kp LA(M)>;
             key-positions = <29 30>;
-            layers = <1>;
+            layers = <0>;
             timeout-ms = <30>;
         };
     };

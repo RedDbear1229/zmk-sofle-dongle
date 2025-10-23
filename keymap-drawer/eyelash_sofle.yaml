@@ -31,7 +31,7 @@ layers:
   - A
   - S
   - D
-  - '&td_F'
+  - F
   - G
   - $$mdi:arrow-left-bold$$
   - H
@@ -260,3 +260,6 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+combos:
+- p: [29, 30]
+  k: Alt+M

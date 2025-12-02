@@ -234,7 +234,7 @@
         layer_3 {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                 &trans                 &trans                 &trans                 &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LS(LA(LC(LG(Y))))  &trans                 &trans                 &trans                 &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LS(LA(LC(LG(Y))))  &kp LS(LA(LC(LG(U))))  &kp LS(LA(LC(LG(I))))  &kp LS(LA(LC(LG(O))))  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LS(LA(LG(LC(H))))  &kp LS(LA(LC(LG(J))))  &kp LS(LA(LC(LG(K))))  &kp LS(LA(LC(LG(L))))  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                 &trans                 &trans                 &trans                 &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &to 0     &trans  &trans                 &trans                 &trans                 &trans                 &trans
